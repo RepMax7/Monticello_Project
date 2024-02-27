@@ -247,7 +247,14 @@ body {
   display: flex;
 }
 
+.news-slick-slider {
+  width: 600px;
+    margin: auto;
+}
 
+.section__news .slick-arrow {
+  color: red !important;
+}
 
 .row {
   display: flex;
