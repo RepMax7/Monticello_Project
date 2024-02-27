@@ -1,0 +1,399 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url(../images/nuilding_image.jpg);
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.title_page {
+  background-image: url(../images/Background.png);
+  height: auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 90%;
+}
+
+.title__page__navbar,
+.navbar__ul,
+.navbar__icons {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.title__page__navbar {
+  width: 80%;
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  position: absolute;
+  height: 75px;
+}
+
+.navbar__ul li {
+  margin: 30px;
+}
+
+.navbar__icons li {
+  margin: 20px;
+  color: white;
+  border: solid 1px white;
+  border-radius: 50px;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar__icons li:hover {
+  color: black;
+  border: solid 5px black;
+  transform: scale(1.3);
+  transition: 0.6s;
+}
+
+.navbar__ul_element {
+  font-size: 12px;
+  color: white;
+  list-style-type: circle;
+  cursor: pointer;
+  font-style: "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.navbar__ul_element:hover {
+  /* background-color: grey; */
+  border-radius: 10px;
+  transform: scale(1.3);
+  transition: 0.5s;
+  list-style-type: disc;
+}
+
+::marker {
+  font-size: 1.7rem;
+}
+
+
+
+/* section 2 starts  */
+
+
+.about__projects {
+  background-color: white;
+  display: grid;
+  height: 90vh;
+}
+
+.about__projects_h2 {
+  display: flex;
+  align-self: center;
+  justify-self: center;
+  font-size: 40px;
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 700;
+  color: black;
+  margin-top: 50px;
+}
+
+.about__content {
+  display: flex;
+  height: 60hv;
+  margin-top: 50px;
+}
+
+.about__project_images {
+  width: 47%;
+  position: relative;
+}
+
+.image {
+  position: absolute;
+  width: 550px;
+  height: 400px;
+}
+
+.image.second {
+  left: 140px;
+  top: 50px;
+  z-index: 1;
+}
+
+.about__project_text {
+  margin-top: 100px;
+  margin-left: 400px;
+}
+
+.about__project_text h4,
+.about__project_text h3,
+.about__project_text p {
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.about__project_text h4 {
+  font-size: 20px;
+}
+
+.about__project_text h3 {
+  font-size: 37px;
+  font-weight: 600;
+  margin-top: 10px;
+}
+
+.about__project_text p {
+  font-size: 17px;
+  padding-top: 30px;
+  width: 75%;
+  line-height: 20px;
+}
+
+.about__button {
+  margin-top: 30px;
+  width: 170px;
+  height: 60px;
+  background-color: white;
+}
+
+.about__button:hover {
+  background-color: black;
+  color: white;
+  transform: scale(1.4);
+  transition: 0.6s;
+}
+
+.location__name {
+  font-style: italic;
+}
+
+.about__project_text a {
+  color: black;
+  text-decoration: none;
+}
+
+.location__name {
+  margin-top: 40px;
+}
+
+.fa-solid {
+  color: black;
+}
+
+.about__content.content {
+  margin-top: 200px;
+  flex-direction: row-reverse;
+}
+
+.about__project_text.second {
+  margin-top: 0;
+  margin-left: 0;
+  width: 47%;
+}
+
+.image.image1 {
+  height: 320px;
+  /* width: 450px; */
+}
+
+.image.second.third {
+  left: -100px;
+  width: 550px;
+  height: 300px;
+}
+
+.about__projects.second {
+  height: 100hv;
+  right: 0;
+}
+
+/* section3 */
+.section__news {
+  height: 100vh;
+  margin-top: 100px;
+  background-image: url('../images/section__news__bg.png');
+  /* display: flex; */
+}
+
+.section__news_heading {
+  font-size: 40px;
+  text-align: center;
+  padding-top: 120px;
+  color: white;
+  font-family: "Open Sans",
+    "Helvetica Neue",
+    sans-serif;
+  font-weight: 600;
+
+}
+
+/* slider newsstarts */
+.slider {
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+
+
+.row {
+  display: flex;
+}
+
+.col-3 {
+  margin-left: 40px;
+  height: 350px;
+  background-color: white;
+  width: 250px;
+  margin-top: 60px;
+  justify-self: center;
+  align-self: center;
+  flex-direction: row;
+}
+
+
+.team {
+  background-color: white;
+  /* text-align: center; */
+}
+
+.news__heading {
+  margin: 15px 10px;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.news__paragraph {
+  margin: 15px 10px;
+  font-size: 11px;
+}
+
+.news__heading,
+.news__paragraph,
+.gallery__heading {
+  font-family: "Open Sans",
+    "Helvetica Neue",
+    sans-serif;
+  ;
+}
+
+.name__photo {
+  display: flex;
+  text-align: centeer;
+}
+
+.gallery {
+  height: 100vh;
+  width: auto;
+  display: grid;
+  justify-content: center;
+  /* align-items: center; */
+
+}
+
+.gallery__heading {
+  margin-top: 50px;
+  font-size: 40px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.grid__container {
+  margin-top: 30px;
+  display: grid;
+  width: 800px;
+  height: 400px;
+  justify-self: center;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 195px 195px;
+  gap: 10px;
+
+}
+
+.grid__button {
+  margin-bottom: 50px;
+  margin-top: 30px;
+  height: 50px;
+  width: 200px;
+  margin-left: 300px;
+  font-family: "Open Sans",
+    "Helvetica Neue",
+    sans-serif;
+  ;
+  cursor: pointer;
+}
+
+.grid__button:hover {
+  background-color: black;
+  color: white;
+  transform: scale(1.3);
+  transition: 0.5s;
+}
+
+.image__gallery {
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+  display: inline-block;
+}
+
+.grid__container>div {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
+.grid__container>div>img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.image__gallery.first {
+  grid-row: 1 / 3;
+  grid-column: 1 / 3;
+}
+
+.maps p {
+  margin-top: 50px;
+}
+
+.contacts {
+  background-image: url(../images/Background.png);
+  height: 65vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 250px;
+}
+
+.contacts__div {
+  display: grid;
+}
+
+.footer__link {
+  text-decoration: none;
+  color: white;
+  margin-top: 40px;
+}
+
+.div__over {
+  background-color: blueviolet;
+  width: 400px;
+  height: 400px;
+  z-index: 1;
+  /* margin-bottom: 500px; */
+}
